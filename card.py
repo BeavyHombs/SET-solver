@@ -17,4 +17,8 @@ class Shading(IntEnum):
     OPEN = 2
 
 class Card: 
-    pass 
+    def __init__(self, color, symbol, shading, count) -> None:
+        self.color = color
+        self.symbol = symbol
+        self.shading = shading
+        self.count = count
